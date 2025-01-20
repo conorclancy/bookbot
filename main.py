@@ -2,7 +2,7 @@ def main():
     book_path = "books/frankenstein.txt"
     text = get_book_text(book_path)
     num_words = get_num_words(text)
-    
+    print(f"{num_words} words found ion the document")
 
 
 def get_num_words(text):
@@ -20,7 +20,7 @@ def word_counter():
 	lowered_dictionary = {}
 	alphabet = "abcdefghijklmnopqrstuvwxyz"
 	alphabet_list = []
-	
+
 	for j in range(len(alphabet)):
 		alphabet_list.append(alphabet[j])
 
